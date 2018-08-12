@@ -1,4 +1,4 @@
-package designpattern.chapter01;
+package designpattern.simpleFactory;
 
 public class OperationDiv extends Operation2 {
 

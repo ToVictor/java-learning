@@ -1,4 +1,4 @@
-package designpattern.chapter01;
+package designpattern.simpleFactory;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

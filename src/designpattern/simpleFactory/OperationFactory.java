@@ -1,4 +1,4 @@
-package designpattern.chapter01;
+package designpattern.simpleFactory;
 
 public class OperationFactory {
 	public static Operation2 createOperation(String operate){

@@ -1,4 +1,4 @@
-package designpattern.chapter01;
+package designpattern.simpleFactory;
 
 /**
  * 计算逻辑类

@@ -1,4 +1,4 @@
-package designpattern.chapter01;
+package designpattern.simpleFactory;
 
 public abstract class Operation2 {
 	private double numberA;
