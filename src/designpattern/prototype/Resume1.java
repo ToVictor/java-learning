@@ -23,21 +23,21 @@ public class Resume1 {
 	
 	public void display() {
 		System.out.printf("%s %s %s%n", name, sex, age);
-		System.out.printf("¹¤×÷¾­Àú£º%s %s%n", timeArea, company);
+		System.out.printf("%s %s%n", timeArea, company);
 	}
 	
 	public static void main(String[] args) {
-		Resume1 a = new Resume1("´óÄñ");
-		a.setPersonalInfo("ÄÐ", "29");
-		a.setWorkExperience("1998-2000", "xx¹«Ë¾");
+		Resume1 a = new Resume1("å¤§é¸Ÿ");
+		a.setPersonalInfo("ç”·", "29");
+		a.setWorkExperience("1998-2000", "xxï¿½ï¿½Ë¾");
 		
-		Resume1 b = new Resume1("´óÄñ");
-		b.setPersonalInfo("ÄÐ", "29");
-		b.setWorkExperience("1998-2000", "xx¹«Ë¾");
+		Resume1 b = new Resume1("å¤§é¸Ÿ");
+		b.setPersonalInfo("ç”·", "29");
+		b.setWorkExperience("1998-2000", "xxï¿½ï¿½Ë¾");
 		
-		Resume1 c = new Resume1("´óÄñ");
-		c.setPersonalInfo("ÄÐ", "29");
-		c.setWorkExperience("1998-2000", "xx¹«Ë¾");
+		Resume1 c = new Resume1("å¤§é¸Ÿ");
+		c.setPersonalInfo("ç”·", "29");
+		c.setWorkExperience("1998-2000", "xxï¿½ï¿½Ë¾");
 		
 		a.display();
 		b.display();

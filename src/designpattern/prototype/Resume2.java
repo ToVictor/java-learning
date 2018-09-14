@@ -23,19 +23,20 @@ public class Resume2 implements Cloneable {
 	
 	public void display() {
 		System.out.printf("%s %s %s%n", name, sex, age);
-		System.out.printf("¹¤×÷¾­Àú£º%s %s%n", timeArea, company);
+		System.out.printf("%s %s%n", timeArea, company);
 	}
 	
 	public static void main(String[] args) throws CloneNotSupportedException {
-		Resume2 a = new Resume2("´óÄñ");
-		a.setPersonalInfo("ÄĞ", "29");
-		a.setWorkExperience("1998-2000", "xx¹«Ë¾");
+		Resume2 a = new Resume2("å¤§é¸Ÿ");
+		a.setPersonalInfo("ç”·", "29");
+		a.setWorkExperience("1998-2000", "xxå…¬å¸");
+		
 		
 		Resume2 b = (Resume2)a.clone();
-		b.setWorkExperience("1998-2006", "xxÆóÒµ");
+		b.setWorkExperience("1998-2006", "xxä¼ä¸š");
 		
 		Resume2 c = (Resume2)a.clone();
-		c.setPersonalInfo("ÄĞ", "22");
+		c.setWorkExperience("1998-2003", "zzå…¬å¸");
 		
 		a.display();
 		b.display();

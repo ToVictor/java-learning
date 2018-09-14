@@ -23,20 +23,20 @@ public class Resume3 {
 
 	public void display() {
 		System.out.printf("%s %s %s%n", name, sex, age);
-		System.out.printf("¹¤×÷¾­Àú£º%s %s%n", work.getWorkDate(), work.getCompany());
+		System.out.printf("%s %s%n", work.getWorkDate(), work.getCompany());
 	}
 	
 	public static void main(String[] args) throws CloneNotSupportedException {
-		Resume3 a = new Resume3("´óÄñ");
-		a.setPersonalInfo("ÄĞ", "29");
-		a.setWorkExperience("1998-2000", "xx¹«Ë¾");
+		Resume3 a = new Resume3("å¤§é¸Ÿ");
+		a.setPersonalInfo("ç”·", "29");
+		a.setWorkExperience("1998-2000", "xxå…¬å¸");
 		
 		
 		Resume3 b = (Resume3)a.clone();
-		b.setWorkExperience("1998-2006", "xxÆóÒµ");
+		b.setWorkExperience("1998-2006", "xxä¼ä¸š");
 		
 		Resume3 c = (Resume3)a.clone();
-		c.setWorkExperience("1998-2003", "zzÆóÒµ");
+		c.setWorkExperience("1998-2003", "zzå…¬å¸");
 		
 		a.display();
 		b.display();

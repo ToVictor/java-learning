@@ -1,0 +1,22 @@
+1:package think.chapter18;
+2:
+3:import java.io.BufferedReader;
+4:import java.io.IOException;
+5:import java.io.PrintWriter;
+6:import java.io.StringReader;
+7:
+8:public class BasicFileOutputShorcut {
+9:	static String file = "BasicFileOutput.out";
+10:	public static void main(String[] args) throws IOException {
+11:		BufferedReader in = new BufferedReader(
+12:				new StringReader(BufferedInputFile.read("src/think/chapter18/BasicFileOutputShorcut.java")));
+13:		PrintWriter out = new PrintWriter(file);
+14:		int lineCount = 1;
+15:		String s;
+16:		while((s = in.readLine()) != null){
+17:			out.println(lineCount++ + ":" + s);
+18:		}
+19:		out.close();
+20:		System.out.println(BufferedInputFile.read("src/think/chapter18/BasicFileOutputShorcut.java"));
+21:	}
+22:}
